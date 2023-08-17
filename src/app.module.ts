@@ -25,8 +25,9 @@ import { AuthController } from './auth/auth.controller';
       synchronize: true,
     }),
     AuthModule,
+    UsersModule,
   ],
-  controllers: [AuthController],
+  controllers: [],
   providers: [],
 })
 export class AppModule {}
